@@ -1,0 +1,101 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; 
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: url('C:\Users\dharanesh.r\Desktop\New folder\institute\public\logo512.png') repeat-x;
+    background-size: cover;
+    animation: scrollBackground 30s linear infinite;
+    z-index: -1; 
+  }
+  
+  @keyframes scrollBackground {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .App {
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1; 
+  }
+  
+
+  form h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-box label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .field {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .field:focus {
+    border-color: #d29cff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(210, 156, 255, 0.5);
+  }
+  
+  .message {
+    min-height: 100px;
+    resize: none;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #d29cff;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #b880e6;
+  }
+} */

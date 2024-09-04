@@ -1,0 +1,172 @@
+/* Ensure the app container takes full height and has a nice background */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #245a24, #c96139); /* Soft green-to-orange gradient */
+}
+
+/* Style the about-us section */
+.about-us {
+  flex: 1;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+/* Style the header section */
+.about-header {
+  position: relative;
+  padding: 20px;
+  background: url('https://via.placeholder.com/1920x400') no-repeat center center/cover; /* Add background image */
+  color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.about-header p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+/* Style the sign-in button */
+.btn-sign-in {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #e91e63; /* Pink color for the button */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-sign-in:hover {
+  background-color: #d81b60; /* Darker pink on hover */
+}
+
+/* Style the main content */
+.about-content {
+  padding: 20px;
+}
+
+/* Style containers */
+.container {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Add background image for mission section */
+.mission {
+  background: url('https://via.placeholder.com/1200x300') no-repeat center center/cover;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mission-content {
+  max-width: 600px;
+}
+
+.mission h2 {
+  color: #ffffff; /* White color for section titles */
+  font-size: 2.5rem;
+  border-bottom: 2px solid #ffffff; /* White border under title */
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.mission p {
+  color: #ffffff; /* White color for text */
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* Add background image for hub-description section */
+.hub-description {
+  background: url('https://via.placeholder.com/1200x300') no-repeat center center/cover;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hub-description-content {
+  max-width: 600px;
+}
+
+.hub-description h2 {
+  color: #ffffff; /* White color for section titles */
+  font-size: 2.5rem;
+  border-bottom: 2px solid #ffffff; /* White border under title */
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.hub-description p {
+  color: #ffffff; /* White color for text */
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* Add background image for team section */
+.team {
+  background: url('https://via.placeholder.com/1200x300') no-repeat center center/cover;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.team h2 {
+  color: #ffffff; /* White color for section titles */
+  font-size: 2.5rem;
+  border-bottom: 2px solid #ffffff; /* White border under title */
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex: 1 1 200px;
+  margin: 15px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid #00796b; /* Teal border around images */
+}
+
+.team-member h3 {
+  color: #ffffff; /* White color for names */
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.team-member p {
+  color: #ffffff; /* White color for positions */
+}
